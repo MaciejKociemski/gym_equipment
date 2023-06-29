@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  overflow-y: auto;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  margin: 20px 0;
+  
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #d3e0e2;
+  padding: 10px;
+  text-align: center;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.suma{background-color: beige;padding: 10px;}
